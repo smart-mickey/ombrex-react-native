@@ -1,0 +1,41 @@
+{
+	"name": "ombrex",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "react-native start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"apsl-react-native-button": "^3.0.2",
+		"react": "16.0.0-alpha.6",
+		"react-native": "^0.44.2",
+		"react-native-audio-streamer": "0.0.9",
+		"react-native-contacts": "git://github.com/tsromana/react-native-contacts.git#db08479075a399f5c58d04a610aaf910278a5d14",
+		"react-native-exit-app": "^0.1.0",
+		"react-native-immediate-phone-call": "^0.1.0",
+		"react-native-keyboard-aware-scroll-view": "^0.2.9",
+		"react-native-loading-spinner-overlay": "^0.5.1",
+		"react-native-navbar": "^1.7.1",
+		"react-native-popup-dialog": "^0.9.29",
+		"react-native-pull": "^2.0.2",
+		"react-native-router-flux": "^4.0.0-beta.7",
+		"react-native-scrollable-tab-view": "^0.6.7",
+		"react-native-simple-modal": "^6.0.0",
+		"react-native-storage": "^0.2.2",
+		"react-native-vector-icons": "^4.2.0",
+		"react-redux": "^5.0.5",
+		"redux": "^3.7.1",
+		"redux-logger": "^3.0.6",
+		"redux-thunk": "^2.2.0"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "2.1.0",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
